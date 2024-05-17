@@ -6019,7 +6019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Touch_Switch_Custom:Transformer_V2"
 			(at 179.07 48.26 0)
 			(effects
 				(font
@@ -6098,7 +6098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 39.37 43.18 0)
 			(effects
 				(font
@@ -6439,7 +6439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 200.3552 45.72 0)
 			(effects
 				(font
@@ -7784,7 +7784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 220.6752 45.72 0)
 			(effects
 				(font
@@ -8140,7 +8140,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 219.71 127 0)
 			(effects
 				(font
@@ -8360,7 +8360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 106.3752 53.34 0)
 			(effects
 				(font
@@ -9603,7 +9603,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 165.1 80.01 0)
 			(effects
 				(font
@@ -10355,7 +10355,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 219.71 80.01 0)
 			(effects
 				(font
@@ -10488,7 +10488,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 165.1 127 0)
 			(effects
 				(font
