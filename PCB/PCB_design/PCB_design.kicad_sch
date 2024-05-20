@@ -2821,7 +2821,7 @@
 				)
 			)
 		)
-		(symbol "Touch_Switch_Custom:S7133S"
+		(symbol "S7133S_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2868,7 +2868,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "S7133S_0_1"
+			(symbol "S7133S_1_0_1"
 				(rectangle
 					(start -5.08 -1.27)
 					(end 5.08 -13.97)
@@ -2881,7 +2881,7 @@
 					)
 				)
 			)
-			(symbol "S7133S_1_1"
+			(symbol "S7133S_1_1_1"
 				(pin input line
 					(at 0 1.27 270)
 					(length 2.54)
@@ -2990,6 +2990,24 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at 0 -16.51 90)
 					(length 2.54)
@@ -3000,7 +3018,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8250,90 +8268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Touch_Switch_Custom:S7133S")
-		(at 64.77 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "830c8ce8-6ca2-4d83-a237-3a414d4db012")
-		(property "Reference" "U2"
-			(at 65.786 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 66.9641 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
-			(at 64.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 64.77 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "8c755f98-6735-4d7e-af80-3c06b25231ae")
-		)
-		(pin "1"
-			(uuid "5d311339-60dd-4bc8-8fba-7606c5f1fab3")
-		)
-		(pin "3"
-			(uuid "ec70a707-3c2d-4573-90b5-6de7bd00492a")
-		)
-		(pin "2"
-			(uuid "e6db2f65-6c80-4a13-ad64-3bb9a869fea1")
-		)
-		(pin "4"
-			(uuid "c2883886-02c6-45ef-aa73-2aff4d9c4258")
-		)
-		(pin "7"
-			(uuid "44d55b66-e0d0-4f45-88fe-4fc86b535999")
-		)
-		(pin "5"
-			(uuid "8193566e-a81a-46b8-a093-5d1f0806b0eb")
-		)
-		(instances
-			(project "PCB_design"
-				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 105.41 49.53 0)
 		(unit 1)
@@ -10325,6 +10259,94 @@
 			(project "PCB_design"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "S7133S_1")
+		(lib_id "Touch_Switch_Custom:S7133S")
+		(at 64.77 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efb8aefb-31f8-4f0a-a2b1-b22b6d7d0b31")
+		(property "Reference" "U3"
+			(at 65.532 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 66.9641 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOP-8_3.9x4.9mm_P1.27mm"
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.77 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "bd9ac981-ae4a-4b1a-8f97-b578e688568d")
+		)
+		(pin "3"
+			(uuid "ffbccb2f-39c4-4b1d-82ab-644e1c86d2e5")
+		)
+		(pin "1"
+			(uuid "c13edfb8-77ee-4f5d-b5e1-d90f32754ff5")
+		)
+		(pin "8"
+			(uuid "7e6b6b2a-2cdc-4b21-a9a0-b49e6c4f73eb")
+		)
+		(pin "4"
+			(uuid "d679b27e-8fb1-4f56-9f72-bf5bd0ff82bf")
+		)
+		(pin "2"
+			(uuid "a5a184b6-cdd0-47fb-98e0-8a44aeaff4bc")
+		)
+		(pin "6"
+			(uuid "132a4c45-610b-40b6-8481-03b9cf654cc5")
+		)
+		(pin "5"
+			(uuid "bbcb75b8-8067-4b1e-8434-985bf1f5aa69")
+		)
+		(instances
+			(project "PCB_design"
+				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
+					(reference "U3")
 					(unit 1)
 				)
 			)
