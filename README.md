@@ -13,8 +13,8 @@ Mon choix s'est tourné vers le hardware, domaine dans lequel j'ai pu approfondi
 
 Le projet qui m'a été confié fût de réalisé un "Touch switch". Il s'agit d'interrupteurs tactiles permettant de contrôler, dans le cas de mon projet, 4 lampes. Voici ci-dessous une photo d'un produit commercialisé par Rand Dong sur lequel je vais me baser.
 
-<div style="text-align: center;">
-  <table style="margin: 0 auto;">
+<div style="display: flex; justify-content: center;">
+  <table>
     <tr>
       <td align="center">
         <img src="Media/touch_switch_rd.png" alt="touch_switch_rd" width="400"/>
@@ -35,8 +35,8 @@ Dans un premier temps, j'ai conçu la carte servant à l'alimentation.
 
 Voici un schema de l'alimentation choisie pour la carte :
 
-<div style="text-align: center;">
-  <table style="margin: 0 auto;">
+<div style="display: flex; justify-content: center;">
+  <table>
     <tr>
       <td align="center">
         <img src="Media/ac_input_schem_1.png" alt="AC_input_schem1" width="400"/>
