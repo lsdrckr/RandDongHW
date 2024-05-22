@@ -101,7 +101,6 @@ Je n’ai pas détaillé le calcul pour chacun des composants, mais voici la mé
 ### Implémentation sur Kicad
 
 Maintenant que j’ai tous les éléments, je peux commencer à implémenter mon projet sur Kicad. J’ai séparé ce dernier en 4 grandes parties :
-- l’alimentation AC en entrée
 
 <center>
   <table>
