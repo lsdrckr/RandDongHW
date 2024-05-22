@@ -55,3 +55,5 @@ Voici un schema de l'alimentation choisie pour la carte :
 Le choix de l'alimentation est très importante pour tout projet, mais il l'est d'autant plus pour un projet comme celui-ci. En effet, ce dernier est destiné à n'importe quel client et de plus, ce client devra être en contact direct avec l'objet s'il souhaite l'utiliser. C'est pourquoi la sécurité était l'argument numéro un lors de mon choix. 2 propositions se sont vite dégagés au sein de l'équipe :
 - alimentation buck
 - alimentation flyback
+D'un côté, l'alimentation buck permet la conversion à l'aide d'une inductance tandis que le flyback utilise un transformateur. De plus, le flyback permet une isolation galvanique entre la partie AC et la partie DC de la carte. Cependant, l'implémentation du flyback est plus compliqué que celle de l'alimentation buck. Comme dit précédemment, la sécurité de notre système est primordiale. Nous avons donc choisi l'alimentation flyback.
+
