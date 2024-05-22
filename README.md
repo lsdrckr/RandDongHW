@@ -89,13 +89,13 @@ Pour les capacités, j’ai suivi le tableau de chez Kemet, qui donne la taille 
       <td align="center">
         <img src="Media/ohm_law.png" alt="ohm_law" width="400"/>
         <br>
-        <em>Touch Switch de chez Rang Dong</em>
+        <em>Loi d'Ohm</em>
       </td>
     </tr>
   </table>
 </center>
 
-Pour mieux comprendre, voici un exemple rapide. Une résistance R est traversée par un courant I et a à ses bornes une tension V. La puissance qu’elle va dissiper est P = V\*I. En fonction de si l’on connaît seulement I ou V, on peut aussi dire que P = V²/R ou P = I²\*R. Prenons dans notre exemple que nous avons déterminé R=1kΩ et Vmax=15V. On a alors P = 0,225W. En nous référant au tableau ci-dessus, on peut alors se permettre de choisir une résistance de taille 1206 ou plus, qui peut dissiper au maximum ¼W = 0,25W. Dans le cas où la puissance dépasse ½W, on peut mettre 2 résistances en parallèles, qui pourront dissiper 2 fois plus de puissance tout en gardant la même valeur. Prenons cette fois-ci Vmax=25V. On a alors P = 0,625W. En mettant deux résistances de 2kΩ en parallèle, on garde une résistance équivalente de 1kΩ et chacune d’entre elles doit seulement dissiper 0,3125W. Dans ce cas, on pourra choisir deux résistances de taille 2512.
+Pour mieux comprendre, voici un exemple rapide. Une résistance R est traversée par un courant I et a à ses bornes une tension V. La puissance qu’elle va dissiper est P = V\*I. En fonction de si l’on connaît seulement I ou V, on peut aussi déduire de la loi d'Ohm que P = V²/R ou P = I²\*R. Prenons dans notre exemple que nous avons déterminé R=1kΩ et Vmax=15V. On a alors P = 0,225W. En nous référant au tableau ci-dessus, on peut alors se permettre de choisir une résistance de taille 1206 ou plus, qui peut dissiper au maximum ¼W = 0,25W. Dans le cas où la puissance dépasse ½W, on peut mettre 2 résistances en parallèles, qui pourront dissiper 2 fois plus de puissance tout en gardant la même valeur. Prenons cette fois-ci Vmax=25V. On a alors P = 0,625W. En mettant deux résistances de 2kΩ en parallèle, on garde une résistance équivalente de 1kΩ et chacune d’entre elles doit seulement dissiper 0,3125W. Dans ce cas, on pourra choisir deux résistances de taille 2512.
 Je n’ai pas détaillé le calcul pour chacun des composants, mais voici la méthode que j’ai suivie pour trouver leurs tailles.
 
 ### Implémentation sur Kicad
@@ -111,43 +111,18 @@ Maintenant que j’ai tous les éléments, je peux commencer à implémenter mon
         <br>
         <em>Alimentation AC</em>
       </td>
-    </tr>
-  </table>
-</center>
-
-- le transformateur et son snubber et le régulateur
-
-<center>
-  <table>
-    <tr>
       <td align="center">
         <img src="Media/transfo_schem.png" alt="transfo_schem" width="400"/>
         <br>
         <em>Transformateur</em>
       </td>
     </tr>
-  </table>
-</center>
-
-- le driver permettant de contrôler le flyback
-
-<center>
-  <table>
     <tr>
       <td align="center">
         <img src="Media/driver_schem.png" alt="driver_schem" width="400"/>
         <br>
         <em>Driver flyback</em>
       </td>
-    </tr>
-  </table>
-</center>
-
-- les 4 relais (un par touch switch)
-
-<center>
-  <table>
-    <tr>
       <td align="center">
         <img src="Media/relays_schem.png" alt="relays_schem" width="400"/>
         <br>
