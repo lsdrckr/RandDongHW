@@ -5866,7 +5866,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touch_Switch_Custom:FH17-1A2STLE-DC5V"
+		(property "Footprint" "Touch_Switch_Custom:relay"
 			(at 179.07 76.2 0)
 			(effects
 				(font
@@ -7169,7 +7169,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touch_Switch_Custom:FH17-1A2STLE-DC5V"
+		(property "Footprint" "Touch_Switch_Custom:relay"
 			(at 233.68 123.19 0)
 			(effects
 				(font
@@ -7982,7 +7982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touch_Switch_Custom:FH17-1A2STLE-DC5V"
+		(property "Footprint" "Touch_Switch_Custom:relay"
 			(at 233.68 76.2 0)
 			(effects
 				(font
@@ -9281,7 +9281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touch_Switch_Custom:FH17-1A2STLE-DC5V"
+		(property "Footprint" "Touch_Switch_Custom:relay"
 			(at 179.07 123.19 0)
 			(effects
 				(font
