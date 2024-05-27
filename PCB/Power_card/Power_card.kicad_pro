@@ -178,9 +178,11 @@
       ],
       "track_widths": [
         0.0,
+        0.0,
         0.001,
         0.5,
         1.0,
+        1.4,
         2.0
       ],
       "tuning_pattern_settings": {
@@ -447,7 +449,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCB_design.kicad_pro",
+    "filename": "Power_card.kicad_pro",
     "version": 1
   },
   "net_settings": {
