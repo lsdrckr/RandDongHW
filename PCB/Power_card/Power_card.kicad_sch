@@ -4896,9 +4896,9 @@
 		)
 		(uuid "15d2f976-e422-4720-95ef-cf7fa2a173e0")
 	)
-	(text "Touch switch prototype"
+	(text "Power card for touch switch"
 		(exclude_from_sim no)
-		(at 197.612 189.738 0)
+		(at 199.898 189.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5832,7 +5832,7 @@
 			(uuid "5b0cd2e5-e494-4351-a57a-fe4fc96f437d")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "Q1")
 					(unit 1)
@@ -5907,7 +5907,7 @@
 			(uuid "a88eae5f-dbf8-423e-a8e3-63ab6ad0a25b")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "K1")
 					(unit 1)
@@ -5986,7 +5986,7 @@
 			(uuid "04584d36-03be-4ab6-bff4-796e59f101e5")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "T1")
 					(unit 1)
@@ -6052,7 +6052,7 @@
 			(uuid "702ad3de-0a46-4002-8335-1c067d8b9e88")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR01")
 					(unit 1)
@@ -6119,7 +6119,7 @@
 			(uuid "d5111933-fb4b-4903-9fba-5d54a48cc19c")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R2")
 					(unit 1)
@@ -6186,7 +6186,7 @@
 			(uuid "fe424840-f180-4727-934d-5ea369264067")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R6")
 					(unit 1)
@@ -6255,7 +6255,7 @@
 			(uuid "b70d72f4-b77a-4404-9aff-e781856b09ab")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "C4")
 					(unit 1)
@@ -6324,7 +6324,7 @@
 			(uuid "3296806b-ac73-4144-8a48-9cb2bff57f25")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "C6")
 					(unit 1)
@@ -6410,7 +6410,7 @@
 			(uuid "e2b9a857-73fe-4e78-ab0d-72fdb675a510")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "J7")
 					(unit 1)
@@ -6486,7 +6486,7 @@
 			(uuid "453ad768-158e-4464-911e-d473d083f68e")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "Q2")
 					(unit 1)
@@ -6555,7 +6555,7 @@
 			(uuid "60f81f67-9f39-45f0-b5bc-a991be7e6671")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R12")
 					(unit 1)
@@ -6624,7 +6624,7 @@
 			(uuid "71202d1c-0992-4419-940b-2eb2f44967b9")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "C1")
 					(unit 1)
@@ -6690,7 +6690,7 @@
 			(uuid "3b611c3e-8db0-48a1-8920-4fb303aca9a4")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR011")
 					(unit 1)
@@ -6757,7 +6757,7 @@
 			(uuid "d88b500b-234d-4f61-a063-132de91ccfc1")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "C8")
 					(unit 1)
@@ -6842,7 +6842,7 @@
 			(uuid "bcdf678e-e63d-4811-acc5-f03a010e4e5c")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "D5")
 					(unit 1)
@@ -6908,7 +6908,7 @@
 			(uuid "6184b67e-e9f1-4b10-8247-4de8c5b669b0")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR06")
 					(unit 1)
@@ -6984,7 +6984,7 @@
 			(uuid "d4533c72-83c5-4abf-91f8-2d65b03a4d18")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "Q3")
 					(unit 1)
@@ -7069,7 +7069,7 @@
 			(uuid "1e66b989-4208-43c3-9fee-6c0896a2c7ab")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "D7")
 					(unit 1)
@@ -7135,7 +7135,7 @@
 			(uuid "27372fba-ccd8-4979-9f58-28afa0cace30")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR010")
 					(unit 1)
@@ -7210,7 +7210,7 @@
 			(uuid "d8041a88-70e7-4efc-9093-02e3f0b3d446")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "K4")
 					(unit 1)
@@ -7276,7 +7276,7 @@
 			(uuid "36e6a419-6efe-4231-b656-7d852776dd51")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR012")
 					(unit 1)
@@ -7364,7 +7364,7 @@
 			(uuid "fb6adb56-8e39-45b4-9505-1926ddd4114c")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "D2")
 					(unit 1)
@@ -7429,7 +7429,7 @@
 			(uuid "c2d81b5e-a5f2-4fd1-a70a-b056bc74913e")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "J2")
 					(unit 1)
@@ -7495,7 +7495,7 @@
 			(uuid "2c64bedb-f407-439b-a1ba-280430dd2764")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR07")
 					(unit 1)
@@ -7580,7 +7580,7 @@
 			(uuid "d200a894-4e63-46a6-b12c-bcdffeb462d0")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "D6")
 					(unit 1)
@@ -7665,7 +7665,7 @@
 			(uuid "94512c89-4e3e-4d78-ba54-81aaff1e07c9")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "D8")
 					(unit 1)
@@ -7734,7 +7734,7 @@
 			(uuid "17dc016e-509e-4d6c-aac1-e89a604ef032")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "C7")
 					(unit 1)
@@ -7810,7 +7810,7 @@
 			(uuid "594aa952-8e79-4ac3-841f-660310b9b497")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "Q4")
 					(unit 1)
@@ -7879,7 +7879,7 @@
 			(uuid "0a52cb98-bff5-4bf8-aa98-98bbd163eb66")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R8")
 					(unit 1)
@@ -7948,7 +7948,7 @@
 			(uuid "2179a4cf-20f8-4167-9dc8-5d523e6e4fde")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R13")
 					(unit 1)
@@ -8023,7 +8023,7 @@
 			(uuid "20df6556-1a37-4008-9144-a71e6dbc0cd2")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "K2")
 					(unit 1)
@@ -8087,7 +8087,7 @@
 			(uuid "5883a900-f42d-4fd0-a36f-4483b1dc7dee")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "J6")
 					(unit 1)
@@ -8157,7 +8157,7 @@
 			(uuid "007abaaf-c30e-4532-9337-6e340477f9e6")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "U1")
 					(unit 1)
@@ -8226,7 +8226,7 @@
 			(uuid "31c942ae-a4cb-4f0e-b748-fbc455ed3bc6")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "C3")
 					(unit 1)
@@ -8292,7 +8292,7 @@
 			(uuid "127efffd-2d09-41e4-9be1-50f867415aed")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR018")
 					(unit 1)
@@ -8356,7 +8356,7 @@
 			)
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "H3")
 					(unit 1)
@@ -8425,7 +8425,7 @@
 			(uuid "f8bdafbb-818c-4f44-8205-e911fff6928c")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R9")
 					(unit 1)
@@ -8490,7 +8490,7 @@
 			(uuid "c2d51892-4d4f-4199-bfcf-3539e41b601d")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "J8")
 					(unit 1)
@@ -8556,7 +8556,7 @@
 			(uuid "7811afea-b916-46a2-95ed-adf38fd9d663")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR013")
 					(unit 1)
@@ -8622,7 +8622,7 @@
 			(uuid "f0e1467c-29a7-4a5f-8b0a-1a0b7a852498")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR016")
 					(unit 1)
@@ -8688,7 +8688,7 @@
 			(uuid "aff21154-3609-4c1c-a7ea-30d39ca7c800")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR09")
 					(unit 1)
@@ -8754,7 +8754,7 @@
 			(uuid "587389cb-4b05-42b9-8b95-091d6d97ab41")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR015")
 					(unit 1)
@@ -8820,7 +8820,7 @@
 			(uuid "f84c4cc7-fe10-4f99-b7f6-cffc341ace4f")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR017")
 					(unit 1)
@@ -8885,7 +8885,7 @@
 			(uuid "7f6e650c-59fd-4e98-91aa-4e974c9e967a")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "J1")
 					(unit 1)
@@ -8954,7 +8954,7 @@
 			(uuid "200f1702-e566-47e2-8445-54b45d8f43f8")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R14")
 					(unit 1)
@@ -9021,7 +9021,7 @@
 			(uuid "4a0fdd36-cf04-445e-aa83-dcdc1c8b4b28")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "F1")
 					(unit 1)
@@ -9107,7 +9107,7 @@
 			(uuid "31992f44-79d6-4e4d-af74-d9c743d4b034")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "D4")
 					(unit 1)
@@ -9180,7 +9180,7 @@
 			(uuid "2f57e0c7-4f22-4f67-a9d3-3ee5e4c7a54e")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "D1")
 					(unit 1)
@@ -9247,7 +9247,7 @@
 			(uuid "6fd57892-d916-42ff-8bbc-e2eb3d7111e7")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R15")
 					(unit 1)
@@ -9322,7 +9322,7 @@
 			(uuid "22b1e614-8cb1-4153-bebd-7011006be56e")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "K3")
 					(unit 1)
@@ -9391,7 +9391,7 @@
 			(uuid "020d1606-de3d-4b2f-b2b9-ecd36dacbea4")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "C9")
 					(unit 1)
@@ -9460,7 +9460,7 @@
 			(uuid "c5944a98-de71-4280-a7e6-410d1868e08b")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R10")
 					(unit 1)
@@ -9529,7 +9529,7 @@
 			(uuid "26811fd7-b579-4b1c-8764-40ecd7c5fdf2")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R3")
 					(unit 1)
@@ -9596,7 +9596,7 @@
 			(uuid "10efa4b9-4333-42c9-ace0-480726f398ec")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "L2")
 					(unit 1)
@@ -9660,7 +9660,7 @@
 			(uuid "4ded4d70-52a3-4939-8467-ac17b2e2ac0a")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "J3")
 					(unit 1)
@@ -9746,7 +9746,7 @@
 			(uuid "24a83b4d-926f-40c4-b2f0-7fba641dfe50")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "D3")
 					(unit 1)
@@ -9812,7 +9812,7 @@
 			(uuid "c703cdbf-8a1f-4427-b81d-b57d4f2335f9")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR014")
 					(unit 1)
@@ -9876,7 +9876,7 @@
 			)
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "H2")
 					(unit 1)
@@ -9945,7 +9945,7 @@
 			(uuid "d67d62d2-7f00-4b31-972c-979700cc61f6")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R5")
 					(unit 1)
@@ -10012,7 +10012,7 @@
 			(uuid "5a3acf77-0de6-40d2-b6ed-183a03ec6301")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R4")
 					(unit 1)
@@ -10076,7 +10076,7 @@
 			)
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "H1")
 					(unit 1)
@@ -10142,7 +10142,7 @@
 			(uuid "b6b90249-c9d0-47ef-9fbe-7acc26a686bd")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR04")
 					(unit 1)
@@ -10208,7 +10208,7 @@
 			(uuid "ec355ea4-1e50-4253-bb4c-0829e259ce78")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR03")
 					(unit 1)
@@ -10272,7 +10272,7 @@
 			)
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "H4")
 					(unit 1)
@@ -10338,7 +10338,7 @@
 			(uuid "e48f081e-72a3-4604-95f4-6a6a2f0b1193")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR08")
 					(unit 1)
@@ -10404,7 +10404,7 @@
 			(uuid "cb21b048-4872-4b67-ba08-93ad99ba7d59")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "#PWR05")
 					(unit 1)
@@ -10473,7 +10473,7 @@
 			(uuid "7de20898-458a-4bc6-9a43-4d80e4befde9")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R7")
 					(unit 1)
@@ -10540,7 +10540,7 @@
 			(uuid "fea345b4-839a-4de6-9cc1-e86e874d69b6")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R11")
 					(unit 1)
@@ -10628,7 +10628,7 @@
 			(uuid "bbcb75b8-8067-4b1e-8434-985bf1f5aa69")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "U3")
 					(unit 1)
@@ -10692,7 +10692,7 @@
 			(uuid "efa460cf-9582-490f-8ad4-739b21c9c3de")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "J4")
 					(unit 1)
@@ -10761,7 +10761,7 @@
 			(uuid "ec39b7c4-1dab-4e60-b9ce-4faa47828933")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "R1")
 					(unit 1)
@@ -10825,7 +10825,7 @@
 			(uuid "7fa7b4da-afd2-4c64-9e9b-717a3ba4254a")
 		)
 		(instances
-			(project "PCB_design"
+			(project "Power_card"
 				(path "/6e223a1a-ee81-40df-b8c9-24ff3e142a46"
 					(reference "J5")
 					(unit 1)
