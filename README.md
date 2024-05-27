@@ -133,3 +133,11 @@ Maintenant que j’ai tous les éléments, je peux commencer à implémenter mon
 
 J’ai également ajouté un connecteur 8 pins pour relier cette carte à celle de contrôle auquel seront connectés les sorties des 4 relais, la sortie du régulateur en 3.3V et la masse lui étant associée.
 J’ai ensuite assigné chacun des éléments avec leurs empreintes, soit en choisissant les tailles définies précédemment, soit en demandant à mon équipe les datasheets qu’ils ont l’habitude d’utiliser pour les composants “spéciaux” tels que le driver, le transformateur, les relais…
+
+## Bibliographie
+
+[Page git du projet](https://github.com/lsdrckr/RangDongHW.git)
+
+[Taille des résistances](https://www.fenghua.com/pdf/thickfilmchipres/thin_film_chipres.pdf)
+
+[Taille des condensateurs](https://www.mouser.com/datasheet/2/447/KEM_A4005_ESH-3315849.pdf)
