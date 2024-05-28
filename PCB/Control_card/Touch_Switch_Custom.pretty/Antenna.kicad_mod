@@ -1,0 +1,136 @@
+(footprint "Antenna"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7fa60f33-f3d4-4a1f-9dd1-98dfd1b85dcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Antenna"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b418168f-4bb9-4652-97ff-d68d8a93b651")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Antenna"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e701498c-e7ac-4f95-bfac-0bbf223ba401")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4feddbd5-bf1e-48e2-85d4-62037ea0739d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d49b298-82a7-488f-9559-7f0e7ceee1d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 2.0996 10.910219) (xy 0.8996 10.910219) (xy 0.8996 8.880219) (xy 8.8996 8.880219) (xy 8.8996 6.210219)
+			(xy 3.0996 6.210219) (xy 3.0996 7.010219) (xy 4.0996 7.010219) (xy 4.0996 8.220219) (xy 1.0296 8.220219)
+			(xy 0.439873 8.809946) (xy 0.439873 10.909946) (xy -0.020127 10.909946) (xy -0.020127 8.629946) (xy 0.899819 7.71)
+			(xy 0.899819 7.01) (xy 1.899819 7.01) (xy 1.899819 5.21) (xy -14.520181 5.21) (xy -14.520181 4) (xy 11.079819 4)
+			(xy 11.079819 10.17) (xy 4.249819 10.17) (xy 4.249819 10.91) (xy 2.8996 10.910219) (xy 2.8996 10.210219)
+			(xy 2.0996 10.210219)
+		)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "34857c6c-d63f-4968-a9ae-202df593e155")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82b27c7e-c005-4301-97ae-13f7c5b1ffe9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 3.574709 10.54)
+		(size 1.350219 0.74)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "1b27408d-c966-4dd5-a2d6-f3c352dd421c")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layers "F&B.Cu")
+		(uuid "4c21bf27-2007-46e1-9eda-dea1cf6c2bd2")
+		(name "Antenna")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 4.649819 12.37) (xy 4.649818 9.799999) (xy -0.420128 9.810219) (xy -0.420127 12.369946) (xy -16.020181 12.37)
+				(xy -16.020181 2.5) (xy 12.579819 2.5) (xy 12.579819 12.37)
+			)
+		)
+	)
+)

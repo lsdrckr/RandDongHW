@@ -627,7 +627,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -60.96 90)
+				(at -6.35 -60.96 90)
 				(length 5.08)
 				(name "DVSS"
 					(effects
@@ -645,7 +645,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 -60.96 90)
+				(at 3.81 -60.96 90)
 				(length 5.08)
 				(name "VDD1V"
 					(effects
@@ -663,7 +663,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -60.96 90)
+				(at -3.81 -60.96 90)
 				(length 5.08)
 				(name "DVSS"
 					(effects
@@ -735,7 +735,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -60.96 90)
+				(at 1.27 -60.96 90)
 				(length 5.08)
 				(name "VDD1V2"
 					(effects
@@ -753,7 +753,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -60.96 90)
+				(at -1.27 -60.96 90)
 				(length 5.08)
 				(name "VDD_F"
 					(effects
@@ -1339,6 +1339,24 @@
 					)
 				)
 				(number "48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 -60.96 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "49"
 					(effects
 						(font
 							(size 1.27 1.27)

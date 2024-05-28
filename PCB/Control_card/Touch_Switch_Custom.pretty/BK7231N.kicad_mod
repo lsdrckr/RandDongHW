@@ -97,7 +97,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "81805984-6130-4939-9b0b-9d048e3e69bd")
 	)
 	(fp_text user "${REFERENCE}"
@@ -269,7 +269,7 @@
 	(zone
 		(net 0)
 		(net_name "")
-		(layers "F.Cu" "F.Fab")
+		(layers "F&B.Cu" "F.Fab")
 		(uuid "21563c25-623f-421f-b0c1-de74eb17fad8")
 		(name "CBU")
 		(hatch edge 0.5)
@@ -282,8 +282,8 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -311,8 +311,8 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -340,8 +340,8 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
 		)
 		(fill
 			(thermal_gap 0.5)
