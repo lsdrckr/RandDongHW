@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at -10.885 6.23 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "7fa60f33-f3d4-4a1f-9dd1-98dfd1b85dcd")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Antenna"
-		(at 0 1 0)
+		(at -10.885 7.73 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "b418168f-4bb9-4652-97ff-d68d8a93b651")
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" "Antenna"
-		(at 0 0 0)
+		(at -10.885 6.73 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -41,7 +41,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at -10.885 6.73 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at -10.885 6.73 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -67,17 +67,50 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start 0.9 10.21)
+		(end 2.1 10.91)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "612d5295-3f90-4495-813e-8cb464be060a")
+	)
+	(fp_rect
+		(start 2.9 10.21)
+		(end 4.25 10.91)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "5589fad4-4eda-4dc6-9412-f9264b78b17e")
+	)
 	(fp_poly
 		(pts
-			(xy 2.0996 10.910219) (xy 0.8996 10.910219) (xy 0.8996 8.880219) (xy 8.8996 8.880219) (xy 8.8996 6.210219)
-			(xy 3.0996 6.210219) (xy 3.0996 7.010219) (xy 4.0996 7.010219) (xy 4.0996 8.220219) (xy 1.0296 8.220219)
-			(xy 0.439873 8.809946) (xy 0.439873 10.909946) (xy -0.020127 10.909946) (xy -0.020127 8.629946) (xy 0.899819 7.71)
-			(xy 0.899819 7.01) (xy 1.899819 7.01) (xy 1.899819 5.21) (xy -14.520181 5.21) (xy -14.520181 4) (xy 11.079819 4)
-			(xy 11.079819 10.17) (xy 4.249819 10.17) (xy 4.249819 10.91) (xy 2.8996 10.910219) (xy 2.8996 10.210219)
-			(xy 2.0996 10.210219)
+			(xy -0.02 10.22) (xy 0.44 10.22) (xy 0.44 10.90995) (xy -0.02 10.90995)
 		)
 		(stroke
-			(width 0.01)
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "83f881a5-be39-4ae5-983e-b316c0240b2c")
+	)
+	(fp_poly
+		(pts
+			(xy 0.9 10.21) (xy 0.8996 8.880219) (xy 8.8996 8.880219) (xy 8.8996 6.210219) (xy 3.0996 6.210219)
+			(xy 3.0996 7.010219) (xy 4.0996 7.010219) (xy 4.0996 8.220219) (xy 1.0296 8.220219) (xy 0.439873 8.809946)
+			(xy 0.44 10.22) (xy -0.020127 10.22) (xy -0.020127 8.629946) (xy 0.899819 7.71) (xy 0.899819 7.01)
+			(xy 1.899819 7.01) (xy 1.899819 5.21) (xy -14.520181 5.21) (xy -14.520181 4) (xy 11.079819 4) (xy 11.079819 10.17)
+			(xy 4.249819 10.17) (xy 4.25 10.21) (xy 2.8996 10.210219) (xy 2.0996 10.210219)
+		)
+		(stroke
+			(width 0)
 			(type solid)
 		)
 		(fill solid)
@@ -85,7 +118,7 @@
 		(uuid "34857c6c-d63f-4968-a9ae-202df593e155")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at -10.885 9.23 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "82b27c7e-c005-4301-97ae-13f7c5b1ffe9")
@@ -97,11 +130,20 @@
 		)
 	)
 	(pad "1" smd rect
-		(at 3.574709 10.54)
-		(size 1.350219 0.74)
+		(at 0.21 11.155)
+		(size 0.46 0.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
 		(thermal_bridge_angle 45)
-		(uuid "1b27408d-c966-4dd5-a2d6-f3c352dd421c")
+		(uuid "38d13377-d50a-471c-8302-337a0c738fab")
+	)
+	(pad "2" smd rect
+		(at 2.575 11.16)
+		(size 3.35 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(zone_connect 2)
+		(thermal_bridge_angle 45)
+		(uuid "614459b6-6f27-4098-bb08-dea1e21e9147")
 	)
 	(zone
 		(net 0)
@@ -119,8 +161,8 @@
 			(tracks not_allowed)
 			(vias not_allowed)
 			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -128,8 +170,9 @@
 		)
 		(polygon
 			(pts
-				(xy 4.649819 12.37) (xy 4.649818 9.799999) (xy -0.420128 9.810219) (xy -0.420127 12.369946) (xy -16.020181 12.37)
-				(xy -16.020181 2.5) (xy 12.579819 2.5) (xy 12.579819 12.37)
+				(xy 4.649819 12.37) (xy 4.649818 9.799999) (xy -0.420128 9.810219) (xy -0.420127 12.369946) (xy -1.525 12.36995)
+				(xy -1.52505 10.90995) (xy -1.525 6.715) (xy -1.655 6.715) (xy -16.02 6.715) (xy -16.020181 2.5)
+				(xy 12.579819 2.5) (xy 12.579819 12.37)
 			)
 		)
 	)

@@ -318,7 +318,7 @@
 				)
 			)
 		)
-		(symbol "Device:Antenna"
+		(symbol "Device:Antenna_Shield"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -326,7 +326,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "AE"
-				(at -1.905 1.905 0)
+				(at -1.905 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -334,8 +334,8 @@
 					(justify right)
 				)
 			)
-			(property "Value" "Antenna"
-				(at -1.905 0 0)
+			(property "Value" "Antenna_Shield"
+				(at -1.905 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -344,7 +344,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -353,7 +353,7 @@
 				)
 			)
 			(property "Datasheet" "~"
-				(at 0 0 0)
+				(at 0 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -361,7 +361,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Antenna"
+			(property "Description" "Antenna with extra pin for shielding"
 				(at 0 0 0)
 				(effects
 					(font
@@ -379,10 +379,46 @@
 					(hide yes)
 				)
 			)
-			(symbol "Antenna_0_1"
+			(symbol "Antenna_Shield_0_1"
+				(arc
+					(start -0.508 -1.143)
+					(mid -0.8429 -2.1194)
+					(end 0 -2.667)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.667)
+					(mid 0.7989 -2.1052)
+					(end 0.508 -1.143)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0 -3.81)
+						(xy 0 -2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 -3.81)
 					)
 					(stroke
 						(width 0.254)
@@ -394,7 +430,31 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0 -2.54) (xy -1.27 2.54)
+						(xy 0.762 -1.905) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0 0) (xy -1.27 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -402,10 +462,21 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0.762 -1.905)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
-			(symbol "Antenna_1_1"
+			(symbol "Antenna_Shield_1_1"
 				(pin input line
 					(at 0 -5.08 90)
 					(length 2.54)
@@ -417,6 +488,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3155,6 +3244,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 29.21) (xy 53.34 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33c22c5f-ae6c-4bc5-8683-3d6928e2cb3a")
+	)
+	(wire
+		(pts
 			(xy 68.58 43.18) (xy 68.58 45.72)
 		)
 		(stroke
@@ -3255,6 +3354,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 29.21) (xy 44.45 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "500cbde1-a58c-4d84-ba7a-a3a6bdf92166")
+	)
+	(wire
+		(pts
 			(xy 231.14 66.04) (xy 241.3 66.04)
 		)
 		(stroke
@@ -3292,16 +3401,6 @@
 			(type default)
 		)
 		(uuid "5b7879fb-fdb2-4844-b53b-8b5a14f49204")
-	)
-	(wire
-		(pts
-			(xy 44.45 29.21) (xy 53.34 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bf4ad52-24cb-408c-867e-f171fc23d71d")
 	)
 	(wire
 		(pts
@@ -3412,16 +3511,6 @@
 			(type default)
 		)
 		(uuid "6d9e089c-f7e8-405b-9550-e7fb7bca59fa")
-	)
-	(wire
-		(pts
-			(xy 53.34 29.21) (xy 53.34 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e5f2a8f-a470-4ea2-8f3c-0e6817ef0b26")
 	)
 	(wire
 		(pts
@@ -4069,9 +4158,9 @@
 			)
 		)
 	)
-	(global_label "In3"
+	(global_label "CT2"
 		(shape input)
-		(at 87.63 52.07 180)
+		(at 87.63 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4079,9 +4168,9 @@
 			)
 			(justify right)
 		)
-		(uuid "072b4458-1e92-4d87-ab9b-86f183050394")
+		(uuid "0bec1599-5458-47b9-8c68-f40058cf827a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.6815 52.07 0)
+			(at 81.1977 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4135,28 +4224,6 @@
 			)
 		)
 	)
-	(global_label "CT3"
-		(shape input)
-		(at 31.75 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1226e46e-cb1f-4b38-b9db-c0749189f0db")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3177 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Net STT"
 		(shape input)
 		(at 105.41 31.75 0)
@@ -4170,28 +4237,6 @@
 		(uuid "147eb740-3dc4-481b-b639-7c6bd7f33f0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 115.6523 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "In4"
-		(shape input)
-		(at 105.41 29.21 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19adb1bf-7cda-4cc7-9a71-cdfd92e71fe9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.3585 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,6 +4334,28 @@
 			)
 		)
 	)
+	(global_label "CT3"
+		(shape input)
+		(at 31.75 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "265b3e85-1678-4cc1-bd20-33be5ecd3a33")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.3177 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OutLed3"
 		(shape input)
 		(at 41.91 62.23 90)
@@ -4307,28 +4374,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CT2"
-		(shape input)
-		(at 87.63 31.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e465820-a71d-4daf-b6b8-4ec34192ce81")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.1977 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4377,9 +4422,9 @@
 			)
 		)
 	)
-	(global_label "In2"
+	(global_label "CT1"
 		(shape input)
-		(at 87.63 49.53 180)
+		(at 87.63 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4387,9 +4432,9 @@
 			)
 			(justify right)
 		)
-		(uuid "386cf99c-3ea0-46a8-ab0b-617c1b66fca3")
+		(uuid "3626a443-5d25-4036-b765-fc791ac9aa9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.6815 49.53 0)
+			(at 81.1977 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,9 +4466,9 @@
 			)
 		)
 	)
-	(global_label "CT3"
+	(global_label "CT4"
 		(shape input)
-		(at 87.63 34.29 180)
+		(at 31.75 29.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4431,9 +4476,53 @@
 			)
 			(justify right)
 		)
-		(uuid "5057f3a4-5e32-4436-890f-97898805f50d")
+		(uuid "46bd36ef-9c55-4089-b13f-d24654d5868b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.1977 34.29 0)
+			(at 25.3177 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CT2"
+		(shape input)
+		(at 31.75 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46befb3b-de49-4317-b9b7-812b082f9d2a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.3177 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "In1"
+		(shape input)
+		(at 87.63 29.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "554a1961-739a-4a75-902f-422e079ccde6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.6815 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4531,6 +4620,28 @@
 			)
 		)
 	)
+	(global_label "In4"
+		(shape input)
+		(at 87.63 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bb09c6e-e95d-4159-8cc9-9645c413c7b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.6815 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Reset"
 		(shape input)
 		(at 172.72 71.12 0)
@@ -4553,28 +4664,6 @@
 			)
 		)
 	)
-	(global_label "CT4"
-		(shape input)
-		(at 31.75 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "70563bc9-6334-47ef-8109-7ed4b25f9ee7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3177 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OutLed2"
 		(shape input)
 		(at 105.41 46.99 0)
@@ -4588,28 +4677,6 @@
 		(uuid "735f117f-0016-4f53-a1c2-f19e86af743a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 116.0756 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CT1"
-		(shape input)
-		(at 44.45 34.29 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c29b6a8-ab54-4c54-872d-599d93658c66")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8823 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,28 +4730,6 @@
 			)
 		)
 	)
-	(global_label "CT2"
-		(shape input)
-		(at 31.75 34.29 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81ab935d-cc80-4f22-8206-9d970ba29888")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.3177 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "XC1"
 		(shape input)
 		(at 273.05 64.77 90)
@@ -4707,9 +4752,9 @@
 			)
 		)
 	)
-	(global_label "CT4"
+	(global_label "CT3"
 		(shape input)
-		(at 87.63 36.83 180)
+		(at 87.63 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4717,14 +4762,36 @@
 			)
 			(justify right)
 		)
-		(uuid "8e5d31ca-1b3a-4884-9527-17ad990b5aa7")
+		(uuid "88376a99-d5ba-494e-b69d-6c6feb050ff8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.1977 36.83 0)
+			(at 81.1977 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3.3V"
+		(shape input)
+		(at 44.45 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cd53550-5ca7-48bf-925f-adec5d51fc6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 51.5476 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4883,6 +4950,50 @@
 			)
 		)
 	)
+	(global_label "CT4"
+		(shape input)
+		(at 105.41 29.21 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ccaa3486-6f47-4798-a89e-53a637a16ab3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 111.8423 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "In3"
+		(shape input)
+		(at 87.63 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf01cdc1-c1d0-44c0-b519-d8b9869cd2eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.6815 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "3.3V"
 		(shape input)
 		(at 96.52 24.13 90)
@@ -4905,72 +5016,6 @@
 			)
 		)
 	)
-	(global_label "3.3V"
-		(shape input)
-		(at 44.45 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d78dcb3f-a766-4a34-9736-55499cc609a4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 51.5476 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "In1"
-		(shape input)
-		(at 87.63 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d8826323-d8ba-433d-abbe-444e77ec6f5b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.6815 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CT1"
-		(shape input)
-		(at 87.63 29.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db9f79e1-b49b-4933-bb12-9a63aedab908")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.1977 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VVD1V"
 		(shape input)
 		(at 158.75 99.06 270)
@@ -4984,6 +5029,28 @@
 		(uuid "e0d7b007-f7cd-4df5-a016-64ff181df5f9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 107.7905 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "In2"
+		(shape input)
+		(at 87.63 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7031666-1e3d-49eb-b15d-6386bbb03c6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.6815 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,6 +5100,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CT1"
+		(shape input)
+		(at 44.45 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f7f1f1e4-1c1c-4bf1-94fb-127a3eaf4ef0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8823 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5406,7 +5495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 46.99 78.74 0)
 			(effects
 				(font
@@ -5675,7 +5764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 36.83 78.74 0)
 			(effects
 				(font
@@ -5736,7 +5825,7 @@
 			)
 		)
 		(property "Value" "Conn_02x04_Counter_Clockwise"
-			(at 38.1 22.86 0)
+			(at 37.592 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +6654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 52.07 78.74 0)
 			(effects
 				(font
@@ -7072,72 +7161,6 @@
 			(project "Control_card"
 				(path "/40ec9ae2-e94f-4c3d-9841-c8dd828b8523"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Antenna")
-		(at 241.3 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e5c1aef-3b30-44e4-81fc-5e563f82258d")
-		(property "Reference" "AE1"
-			(at 232.41 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Antenna"
-			(at 232.41 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Touch_Switch_Custom:Antenna"
-			(at 241.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Antenna"
-			(at 241.3 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ba6c0faf-1c10-4cfa-a636-e6bff3bd6a7c")
-		)
-		(instances
-			(project "Control_card"
-				(path "/40ec9ae2-e94f-4c3d-9841-c8dd828b8523"
-					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -7767,7 +7790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 41.91 78.74 0)
 			(effects
 				(font
@@ -7804,6 +7827,71 @@
 			(project "Control_card"
 				(path "/40ec9ae2-e94f-4c3d-9841-c8dd828b8523"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad0910f5-2320-4221-b8c9-f6f3a4d7a3f9")
+		(property "Reference" "#PWR016"
+			(at 243.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.888 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0251362a-1821-49c4-b0f0-8fba7a8cd694")
+		)
+		(instances
+			(project "Control_card"
+				(path "/40ec9ae2-e94f-4c3d-9841-c8dd828b8523"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7872,6 +7960,75 @@
 			(project "Control_card"
 				(path "/40ec9ae2-e94f-4c3d-9841-c8dd828b8523"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Shield")
+		(at 241.3 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd334b84-7116-4955-8724-5e80b3cfa3c8")
+		(property "Reference" "AE1"
+			(at 235.204 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna_Shield"
+			(at 225.044 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Touch_Switch_Custom:Antenna"
+			(at 241.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Antenna with extra pin for shielding"
+			(at 241.3 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf99a34c-cfe0-48c2-9c98-2f97b9053b0b")
+		)
+		(pin "2"
+			(uuid "b328d321-4a60-4bac-a073-b429c7071179")
+		)
+		(instances
+			(project "Control_card"
+				(path "/40ec9ae2-e94f-4c3d-9841-c8dd828b8523"
+					(reference "AE1")
 					(unit 1)
 				)
 			)
@@ -8649,7 +8806,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 26.67 78.74 0)
 			(effects
 				(font
