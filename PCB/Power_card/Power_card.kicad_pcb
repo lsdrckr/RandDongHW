@@ -17614,8 +17614,8 @@
 		(layer "Edge.Cuts")
 		(uuid "88713ce7-5416-4185-919d-b74932519ea1")
 	)
-	(gr_text "Touch switch\nLouis DERYCKERE"
-		(at 103.59 74.02 0)
+	(gr_text "Touch switch\nPower card\nlsdrckr"
+		(at 130.19 49.51 0)
 		(layer "F.SilkS")
 		(uuid "0f636f9e-19d1-4a14-a20a-d802d69c29a4")
 		(effects
