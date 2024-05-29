@@ -129,21 +129,19 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at 0.21 11.155)
+	(pad "1" connect rect
+		(at 0.21 11.15)
 		(size 0.46 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(zone_connect 2)
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
-		(uuid "38d13377-d50a-471c-8302-337a0c738fab")
+		(uuid "45d23311-046d-4073-85d0-9531e8f3a869")
 	)
-	(pad "2" smd rect
-		(at 2.575 11.16)
+	(pad "2" connect rect
+		(at 2.575 11.15)
 		(size 3.35 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(zone_connect 2)
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
-		(uuid "614459b6-6f27-4098-bb08-dea1e21e9147")
+		(uuid "a06974b8-7260-41e7-be4a-5bce9781d114")
 	)
 	(zone
 		(net 0)
