@@ -6618,7 +6618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Touch_Switch_Custom:Touch Switch"
+		(property "Footprint" "Touch_Switch_Custom:TouchSwitch"
 			(at 82.55 139.7 0)
 			(effects
 				(font
@@ -8046,7 +8046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Touch_Switch_Custom:Touch Switch"
+		(property "Footprint" "Touch_Switch_Custom:TouchSwitch"
 			(at 82.55 137.16 0)
 			(effects
 				(font
@@ -8373,7 +8373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Touch_Switch_Custom:Touch Switch"
+		(property "Footprint" "Touch_Switch_Custom:TouchSwitch"
 			(at 82.55 93.98 0)
 			(effects
 				(font
@@ -8767,7 +8767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Touch_Switch_Custom:Touch Switch"
+		(property "Footprint" "Touch_Switch_Custom:TouchSwitch"
 			(at 82.55 96.52 0)
 			(effects
 				(font
