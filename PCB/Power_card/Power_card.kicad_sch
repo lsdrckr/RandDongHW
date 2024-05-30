@@ -6338,7 +6338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touch_Switch_Custom:Pin femelle"
+		(property "Footprint" "Touch_Switch_Custom:PinFemelle"
 			(at 129.54 83.82 0)
 			(effects
 				(font
@@ -6347,7 +6347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 129.54 83.82 0)
 			(effects
 				(font

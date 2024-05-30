@@ -6774,7 +6774,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Touch_Switch_Custom:Pin mâle"
+		(property "Footprint" "Touch_Switch_Custom:PinMale"
 			(at 39.37 29.21 0)
 			(effects
 				(font
