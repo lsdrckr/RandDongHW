@@ -6124,7 +6124,7 @@
 		(uuid "47a7fc15-cc33-4746-afdf-84114701f97d")
 		(at 111.65 100.86 180)
 		(property "Reference" "J7"
-			(at 0 -16.4 180)
+			(at -2.1 5.9 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "32d7dfb1-d30f-42cd-84d8-41c4ed99b246")
